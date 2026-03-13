@@ -137,7 +137,7 @@ function initStatCounters(): void {
         }
       });
     },
-    { threshold: 0.5 }
+    { threshold: 0.5 },
   );
 
   statNumbers.forEach((el: Element) => observer.observe(el));
@@ -180,7 +180,7 @@ function initTerminalTyping(): void {
         }
       });
     },
-    { threshold: 0.3 }
+    { threshold: 0.3 },
   );
 
   terminalCode.style.opacity = '0';

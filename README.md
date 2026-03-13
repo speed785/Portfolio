@@ -13,14 +13,14 @@ Personal portfolio site for **James Dumitru** — showcasing AI tooling, game de
 
 ## Featured Projects
 
-| Project | Stack | Description |
-|---------|-------|-------------|
-| [AI Agent DevTools Suite](https://github.com/speed785/agentlens) | Python, TypeScript | Five libraries for AI agent pipelines: observability, memory, security, orchestration, evaluation |
-| [Drift Crank](https://github.com/speed785/Drift_Crank) | Lua, Playdate SDK | Arcade racer for the Panic Playdate — crank-driven drifting with pseudo-3D road effects |
-| [Linux Fingerprint Driver](https://github.com/speed785/validity-vfs0090-linux-driver) | C, libfprint | Patched driver for Validity VFS0090 sensors on ThinkPad X1 Carbon (Ubuntu 24.04, kernel 6.17) |
-| [CAD-Works](https://github.com/speed785/CAD-Works) | G-code, STL | 3D printing projects for Ender 3 Pro — custom keycaps, printer upgrades, test towers |
-| [OSINT Tools](https://github.com/speed785/OSINT) | Python, Scrapy | Twitter hashtag crawler, Alibaba scraper, and data analysis dashboard |
-| [AI Agents Starter Kit](https://github.com/speed785/ai-agents-starter-kit) | Shell, Markdown | Beginner-friendly template for building AI-assisted projects |
+| Project                                                                               | Stack              | Description                                                                                       |
+| ------------------------------------------------------------------------------------- | ------------------ | ------------------------------------------------------------------------------------------------- |
+| [AI Agent DevTools Suite](https://github.com/speed785/agentlens)                      | Python, TypeScript | Five libraries for AI agent pipelines: observability, memory, security, orchestration, evaluation |
+| [Drift Crank](https://github.com/speed785/Drift_Crank)                                | Lua, Playdate SDK  | Arcade racer for the Panic Playdate — crank-driven drifting with pseudo-3D road effects           |
+| [Linux Fingerprint Driver](https://github.com/speed785/validity-vfs0090-linux-driver) | C, libfprint       | Patched driver for Validity VFS0090 sensors on ThinkPad X1 Carbon (Ubuntu 24.04, kernel 6.17)     |
+| [CAD-Works](https://github.com/speed785/CAD-Works)                                    | G-code, STL        | 3D printing projects for Ender 3 Pro — custom keycaps, printer upgrades, test towers              |
+| [OSINT Tools](https://github.com/speed785/OSINT)                                      | Python, Scrapy     | Twitter hashtag crawler, Alibaba scraper, and data analysis dashboard                             |
+| [AI Agents Starter Kit](https://github.com/speed785/ai-agents-starter-kit)            | Shell, Markdown    | Beginner-friendly template for building AI-assisted projects                                      |
 
 ## Getting Started
 

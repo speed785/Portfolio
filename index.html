@@ -1,139 +1,227 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>James Dumitru — Developer &amp; Creator</title>
-  <meta name="description" content="Portfolio of James Dumitru. AI tooling, game development, systems programming, and hardware projects.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>James Dumitru — Developer &amp; Creator</title>
+    <meta
+      name="description"
+      content="Portfolio of James Dumitru. AI tooling, game development, systems programming, and hardware projects."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Dot grid background -->
+    <div class="dot-grid" aria-hidden="true"></div>
 
-  <!-- Dot grid background -->
-  <div class="dot-grid" aria-hidden="true"></div>
-
-  <!-- Navigation -->
-  <nav class="nav" id="nav">
-    <div class="nav-inner">
-      <a href="#" class="nav-logo">JD</a>
-      <div class="nav-links">
-        <a href="#work">Work</a>
-        <a href="#about">About</a>
-        <a href="https://github.com/speed785" target="_blank" rel="noopener">GitHub</a>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Hero — Split Screen Layout -->
-  <header class="hero" id="hero">
-    <div class="hero-left">
-      <p class="hero-label reveal">Developer &amp; Creator</p>
-      <h1 class="hero-title reveal">
-        <span class="line">James</span>
-        <span class="line">Dumitru<span class="accent-dot">.</span></span>
-      </h1>
-      <p class="hero-description reveal">
-        I build tools that solve real problems — from AI agent infrastructure and Linux kernel drivers to handheld game consoles and 3D-printed hardware.
-      </p>
-      <div class="hero-cta reveal">
-        <a href="#work" class="btn btn-primary">See my work</a>
-        <a href="https://github.com/speed785" target="_blank" rel="noopener" class="btn btn-outline">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-          GitHub
-        </a>
-      </div>
-    </div>
-    <div class="hero-right reveal">
-      <div class="hero-visual">
-        <div class="visual-ring ring-1"></div>
-        <div class="visual-ring ring-2"></div>
-        <div class="visual-ring ring-3"></div>
-        <div class="visual-orb"></div>
-      </div>
-    </div>
-  </header>
-
-  <!-- Marquee ticker -->
-  <div class="marquee" aria-hidden="true">
-    <div class="marquee-track">
-      <span>Python</span><span class="marquee-sep">/</span>
-      <span>TypeScript</span><span class="marquee-sep">/</span>
-      <span>Lua</span><span class="marquee-sep">/</span>
-      <span>C</span><span class="marquee-sep">/</span>
-      <span>Java</span><span class="marquee-sep">/</span>
-      <span>React</span><span class="marquee-sep">/</span>
-      <span>Angular</span><span class="marquee-sep">/</span>
-      <span>Linux</span><span class="marquee-sep">/</span>
-      <span>3D Printing</span><span class="marquee-sep">/</span>
-      <span>AI Agents</span><span class="marquee-sep">/</span>
-      <span>Game Dev</span><span class="marquee-sep">/</span>
-      <span>OSINT</span><span class="marquee-sep">/</span>
-      <span>Python</span><span class="marquee-sep">/</span>
-      <span>TypeScript</span><span class="marquee-sep">/</span>
-      <span>Lua</span><span class="marquee-sep">/</span>
-      <span>C</span><span class="marquee-sep">/</span>
-      <span>Java</span><span class="marquee-sep">/</span>
-      <span>React</span><span class="marquee-sep">/</span>
-      <span>Angular</span><span class="marquee-sep">/</span>
-      <span>Linux</span><span class="marquee-sep">/</span>
-      <span>3D Printing</span><span class="marquee-sep">/</span>
-      <span>AI Agents</span><span class="marquee-sep">/</span>
-      <span>Game Dev</span><span class="marquee-sep">/</span>
-      <span>OSINT</span><span class="marquee-sep">/</span>
-    </div>
-  </div>
-
-  <!-- Work Section -->
-  <section class="work" id="work">
-    <div class="section-label reveal">Selected Work</div>
-
-    <!-- Project 1: AI Agent DevTools — full-width feature -->
-    <article class="project project-feature reveal" data-accent="emerald">
-      <div class="project-content">
-        <div class="project-meta">
-          <span class="tag">Python</span>
-          <span class="tag">TypeScript</span>
-          <span class="tag">OpenAI</span>
-          <span class="tag">Anthropic</span>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+      <div class="nav-inner">
+        <a href="#" class="nav-logo">JD</a>
+        <div class="nav-links">
+          <a href="#work">Work</a>
+          <a href="#about">About</a>
+          <a href="https://github.com/speed785" target="_blank" rel="noopener">GitHub</a>
         </div>
-        <h2 class="project-title">AI Agent DevTools Suite</h2>
-        <p class="project-desc">
-          Five interconnected open-source libraries for building production-grade AI agents. Covers the full pipeline: observability, context memory, prompt injection defense, parallel tool orchestration, and automated evaluation. Dual Python + TypeScript SDKs, 100% test coverage, CI/CD across all five repos.
+      </div>
+    </nav>
+
+    <!-- Hero — Split Screen Layout -->
+    <header class="hero" id="hero">
+      <div class="hero-left">
+        <p class="hero-label reveal">Developer &amp; Creator</p>
+        <h1 class="hero-title reveal">
+          <span class="line">James</span>
+          <span class="line">Dumitru<span class="accent-dot">.</span></span>
+        </h1>
+        <p class="hero-description reveal">
+          I build tools that solve real problems — from AI agent infrastructure and Linux kernel
+          drivers to handheld game consoles and 3D-printed hardware.
         </p>
-        <div class="project-tools">
-          <div class="tool-pill">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-            agentlens
-          </div>
-          <div class="tool-pill">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2a7 7 0 0 1 7 7c0 2.38-1.19 4.47-3 5.74V17a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 0 1 7-7z"/><line x1="10" y1="22" x2="14" y2="22"/></svg>
-            neuromem
-          </div>
-          <div class="tool-pill">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-            sentinel-inject
-          </div>
-          <div class="tool-pill">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/><polyline points="21 16 21 21 16 21"/><line x1="15" y1="15" x2="21" y2="21"/><line x1="4" y1="4" x2="9" y2="9"/></svg>
-            synapse-orchestrator
-          </div>
-          <div class="tool-pill">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
-            evalforge
-          </div>
-        </div>
-        <div class="project-links">
-          <a href="https://github.com/speed785/agentlens" target="_blank" rel="noopener" class="project-link">View on GitHub</a>
+        <div class="hero-cta reveal">
+          <a href="#work" class="btn btn-primary">See my work</a>
+          <a
+            href="https://github.com/speed785"
+            target="_blank"
+            rel="noopener"
+            class="btn btn-outline"
+          >
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path
+                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+              />
+            </svg>
+            GitHub
+          </a>
         </div>
       </div>
-      <div class="project-visual">
-        <div class="terminal-mock">
-          <div class="terminal-dots">
-            <span></span><span></span><span></span>
+      <div class="hero-right reveal">
+        <div class="hero-visual">
+          <div class="visual-ring ring-1"></div>
+          <div class="visual-ring ring-2"></div>
+          <div class="visual-ring ring-3"></div>
+          <div class="visual-orb"></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Marquee ticker -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Python</span><span class="marquee-sep">/</span> <span>TypeScript</span
+        ><span class="marquee-sep">/</span> <span>Lua</span><span class="marquee-sep">/</span>
+        <span>C</span><span class="marquee-sep">/</span> <span>Java</span
+        ><span class="marquee-sep">/</span> <span>React</span><span class="marquee-sep">/</span>
+        <span>Angular</span><span class="marquee-sep">/</span> <span>Linux</span
+        ><span class="marquee-sep">/</span> <span>3D Printing</span
+        ><span class="marquee-sep">/</span> <span>AI Agents</span><span class="marquee-sep">/</span>
+        <span>Game Dev</span><span class="marquee-sep">/</span> <span>OSINT</span
+        ><span class="marquee-sep">/</span> <span>Python</span><span class="marquee-sep">/</span>
+        <span>TypeScript</span><span class="marquee-sep">/</span> <span>Lua</span
+        ><span class="marquee-sep">/</span> <span>C</span><span class="marquee-sep">/</span>
+        <span>Java</span><span class="marquee-sep">/</span> <span>React</span
+        ><span class="marquee-sep">/</span> <span>Angular</span><span class="marquee-sep">/</span>
+        <span>Linux</span><span class="marquee-sep">/</span> <span>3D Printing</span
+        ><span class="marquee-sep">/</span> <span>AI Agents</span><span class="marquee-sep">/</span>
+        <span>Game Dev</span><span class="marquee-sep">/</span> <span>OSINT</span
+        ><span class="marquee-sep">/</span>
+      </div>
+    </div>
+
+    <!-- Work Section -->
+    <section class="work" id="work">
+      <div class="section-label reveal">Selected Work</div>
+
+      <!-- Project 1: AI Agent DevTools — full-width feature -->
+      <article class="project project-feature reveal" data-accent="emerald">
+        <div class="project-content">
+          <div class="project-meta">
+            <span class="tag">Python</span>
+            <span class="tag">TypeScript</span>
+            <span class="tag">OpenAI</span>
+            <span class="tag">Anthropic</span>
           </div>
-          <pre class="terminal-code"><code><span class="t-dim">$</span> <span class="t-accent">pip install</span> agentlens neuromem sentinel-inject
+          <h2 class="project-title">AI Agent DevTools Suite</h2>
+          <p class="project-desc">
+            Five interconnected open-source libraries for building production-grade AI agents.
+            Covers the full pipeline: observability, context memory, prompt injection defense,
+            parallel tool orchestration, and automated evaluation. Dual Python + TypeScript SDKs,
+            100% test coverage, CI/CD across all five repos.
+          </p>
+          <div class="project-tools">
+            <div class="tool-pill">
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <circle cx="12" cy="12" r="10" />
+                <polyline points="12 6 12 12 16 14" />
+              </svg>
+              agentlens
+            </div>
+            <div class="tool-pill">
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path
+                  d="M12 2a7 7 0 0 1 7 7c0 2.38-1.19 4.47-3 5.74V17a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 0 1 7-7z"
+                />
+                <line x1="10" y1="22" x2="14" y2="22" />
+              </svg>
+              neuromem
+            </div>
+            <div class="tool-pill">
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+              </svg>
+              sentinel-inject
+            </div>
+            <div class="tool-pill">
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <polyline points="16 3 21 3 21 8" />
+                <line x1="4" y1="20" x2="21" y2="3" />
+                <polyline points="21 16 21 21 16 21" />
+                <line x1="15" y1="15" x2="21" y2="21" />
+                <line x1="4" y1="4" x2="9" y2="9" />
+              </svg>
+              synapse-orchestrator
+            </div>
+            <div class="tool-pill">
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                aria-hidden="true"
+              >
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                <polyline points="14 2 14 8 20 8" />
+                <line x1="16" y1="13" x2="8" y2="13" />
+                <line x1="16" y1="17" x2="8" y2="17" />
+              </svg>
+              evalforge
+            </div>
+          </div>
+          <div class="project-links">
+            <a
+              href="https://github.com/speed785/agentlens"
+              target="_blank"
+              rel="noopener"
+              class="project-link"
+              >View on GitHub</a
+            >
+          </div>
+        </div>
+        <div class="project-visual">
+          <div class="terminal-mock">
+            <div class="terminal-dots"><span></span><span></span><span></span></div>
+            <pre
+              class="terminal-code"
+            ><code><span class="t-dim">$</span> <span class="t-accent">pip install</span> agentlens neuromem sentinel-inject
 <span class="t-dim">$</span> <span class="t-accent">agentlens</span> view trace.json
 
 <span class="t-muted">AgentLens loaded 12 calls from trace.json</span>
@@ -142,154 +230,276 @@
 <span class="t-dim">$</span> <span class="t-accent">evalforge</span> run --suite regression
 <span class="t-muted">Running 24 test cases...</span>
 <span class="t-green">  24/24 passed</span>  <span class="t-muted">No regressions detected</span></code></pre>
-        </div>
-      </div>
-    </article>
-
-    <!-- Project Grid: 2-column asymmetric -->
-    <div class="project-grid">
-
-      <!-- Project 2: Drift Crank -->
-      <article class="project project-card reveal" data-accent="orange">
-        <div class="project-card-icon">
-          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/><path d="M16 16l2 2"/></svg>
-        </div>
-        <div class="project-meta">
-          <span class="tag">Lua</span>
-          <span class="tag">Playdate SDK</span>
-          <span class="tag">Game Dev</span>
-        </div>
-        <h3 class="project-title">Drift Crank</h3>
-        <p class="project-desc">
-          Arcade racing game for the Panic Playdate handheld. The physical crank controls drift angle — twist to slide through corners. Car selection, track selection, lap timing, drift scoring with multipliers, and pseudo-3D road effects. Full CI pipeline with smoke tests.
-        </p>
-        <a href="https://github.com/speed785/Drift_Crank" target="_blank" rel="noopener" class="project-link">View on GitHub</a>
-      </article>
-
-      <!-- Project 3: Linux Fingerprint Driver -->
-      <article class="project project-card reveal" data-accent="rose">
-        <div class="project-card-icon">
-          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
-        </div>
-        <div class="project-meta">
-          <span class="tag">C</span>
-          <span class="tag">Linux</span>
-          <span class="tag">libfprint</span>
-        </div>
-        <h3 class="project-title">Linux Fingerprint Driver</h3>
-        <p class="project-desc">
-          Patched a C driver for Validity VFS0090/VFS7500 fingerprint sensors on ThinkPad X1 Carbon 4th Gen. Fixed upstream API breakage in the modern libfprint-2-tod library. Tested on Ubuntu 24.04, kernel 6.17. Documented full install guide.
-        </p>
-        <div class="project-link-row">
-          <a href="https://github.com/speed785/validity-vfs0090-linux-driver" target="_blank" rel="noopener" class="project-link">GitHub</a>
-          <a href="https://www.youtube.com/watch?v=dYe8eKaoUSE" target="_blank" rel="noopener" class="project-link project-link-secondary">Video Demo</a>
-        </div>
-      </article>
-
-      <!-- Project 4: CAD-Works -->
-      <article class="project project-card reveal" data-accent="amber">
-        <div class="project-card-icon">
-          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
-        </div>
-        <div class="project-meta">
-          <span class="tag">G-code</span>
-          <span class="tag">STL</span>
-          <span class="tag">3D Printing</span>
-        </div>
-        <h3 class="project-title">CAD-Works</h3>
-        <p class="project-desc">
-          3D printing and CAD modeling projects for Ender 3 Pro. Custom keycaps (including a Shenron artisan keycap), button holders, printer upgrades, and temperature test towers. Files in G-code, STL, 3MF, and IGES formats.
-        </p>
-        <a href="https://github.com/speed785/CAD-Works" target="_blank" rel="noopener" class="project-link">View on GitHub</a>
-      </article>
-
-      <!-- Project 5: OSINT -->
-      <article class="project project-card reveal" data-accent="sky">
-        <div class="project-card-icon">
-          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
-        </div>
-        <div class="project-meta">
-          <span class="tag">Python</span>
-          <span class="tag">Scrapy</span>
-          <span class="tag">Security</span>
-        </div>
-        <h3 class="project-title">OSINT Tools</h3>
-        <p class="project-desc">
-          Open-source intelligence toolkit. Includes a Twitter hashtag crawler, Alibaba product scraper built with Scrapy, and a data analysis dashboard. Built for a network security course with real-world data collection workflows.
-        </p>
-        <a href="https://github.com/speed785/OSINT" target="_blank" rel="noopener" class="project-link">View on GitHub</a>
-      </article>
-
-      <!-- Project 6: AI Agents Starter Kit -->
-      <article class="project project-card reveal" data-accent="teal">
-        <div class="project-card-icon">
-          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
-        </div>
-        <div class="project-meta">
-          <span class="tag">Shell</span>
-          <span class="tag">Markdown</span>
-          <span class="tag">Education</span>
-        </div>
-        <h3 class="project-title">AI Agents Starter Kit</h3>
-        <p class="project-desc">
-          Beginner-friendly template for building AI-assisted projects. Structured learning paths (backend-first, frontend-first, full-stack), agent guidance docs, reusable AGENTS.md and SKILLS.md templates, and AI kickoff prompts.
-        </p>
-        <a href="https://github.com/speed785/ai-agents-starter-kit" target="_blank" rel="noopener" class="project-link">View on GitHub</a>
-      </article>
-
-    </div>
-  </section>
-
-  <!-- About Section -->
-  <section class="about" id="about">
-    <div class="about-inner">
-      <div class="about-left reveal">
-        <div class="section-label">About</div>
-        <h2 class="about-title">Full-stack across the whole stack.</h2>
-        <p class="about-text">
-          I work across layers that most developers never touch in the same career — from kernel-level C drivers and embedded Lua game engines to Python AI pipelines and TypeScript web applications. I also design and 3D-print physical objects.
-        </p>
-        <p class="about-text">
-          My AI Agent DevTools suite is five production-ready libraries with dual-language SDKs, full CI/CD, and documentation sites. My Playdate game uses a physical crank as a drift controller. My Linux driver patches an upstream API that broke for an entire generation of ThinkPad fingerprint sensors.
-        </p>
-        <p class="about-text">
-          I care about code that ships, works, and is documented well enough that someone else can pick it up.
-        </p>
-      </div>
-      <div class="about-right reveal">
-        <div class="stats-grid">
-          <div class="stat-block">
-            <span class="stat-number">5</span>
-            <span class="stat-desc">AI agent libraries</span>
-          </div>
-          <div class="stat-block">
-            <span class="stat-number">8+</span>
-            <span class="stat-desc">Languages used</span>
-          </div>
-          <div class="stat-block">
-            <span class="stat-number">40+</span>
-            <span class="stat-desc">Public repos</span>
-          </div>
-          <div class="stat-block">
-            <span class="stat-number">100%</span>
-            <span class="stat-desc">Test coverage (AI suite)</span>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
+      </article>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="footer-inner">
-      <span class="footer-name">James Dumitru</span>
-      <div class="footer-links">
-        <a href="https://github.com/speed785" target="_blank" rel="noopener">GitHub</a>
-      </div>
-      <span class="footer-copy">2026</span>
-    </div>
-  </footer>
+      <!-- Project Grid: 2-column asymmetric -->
+      <div class="project-grid">
+        <!-- Project 2: Drift Crank -->
+        <article class="project project-card reveal" data-accent="orange">
+          <div class="project-card-icon">
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <circle cx="12" cy="12" r="10" />
+              <path d="M12 6v6l4 2" />
+              <path d="M16 16l2 2" />
+            </svg>
+          </div>
+          <div class="project-meta">
+            <span class="tag">Lua</span>
+            <span class="tag">Playdate SDK</span>
+            <span class="tag">Game Dev</span>
+          </div>
+          <h3 class="project-title">Drift Crank</h3>
+          <p class="project-desc">
+            Arcade racing game for the Panic Playdate handheld. The physical crank controls drift
+            angle — twist to slide through corners. Car selection, track selection, lap timing,
+            drift scoring with multipliers, and pseudo-3D road effects. Full CI pipeline with smoke
+            tests.
+          </p>
+          <a
+            href="https://github.com/speed785/Drift_Crank"
+            target="_blank"
+            rel="noopener"
+            class="project-link"
+            >View on GitHub</a
+          >
+        </article>
 
-  <script type="module" src="/src/main.ts"></script>
-</body>
+        <!-- Project 3: Linux Fingerprint Driver -->
+        <article class="project project-card reveal" data-accent="rose">
+          <div class="project-card-icon">
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
+              <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+            </svg>
+          </div>
+          <div class="project-meta">
+            <span class="tag">C</span>
+            <span class="tag">Linux</span>
+            <span class="tag">libfprint</span>
+          </div>
+          <h3 class="project-title">Linux Fingerprint Driver</h3>
+          <p class="project-desc">
+            Patched a C driver for Validity VFS0090/VFS7500 fingerprint sensors on ThinkPad X1
+            Carbon 4th Gen. Fixed upstream API breakage in the modern libfprint-2-tod library.
+            Tested on Ubuntu 24.04, kernel 6.17. Documented full install guide.
+          </p>
+          <div class="project-link-row">
+            <a
+              href="https://github.com/speed785/validity-vfs0090-linux-driver"
+              target="_blank"
+              rel="noopener"
+              class="project-link"
+              >GitHub</a
+            >
+            <a
+              href="https://www.youtube.com/watch?v=dYe8eKaoUSE"
+              target="_blank"
+              rel="noopener"
+              class="project-link project-link-secondary"
+              >Video Demo</a
+            >
+          </div>
+        </article>
+
+        <!-- Project 4: CAD-Works -->
+        <article class="project project-card reveal" data-accent="amber">
+          <div class="project-card-icon">
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path
+                d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"
+              />
+              <polyline points="3.27 6.96 12 12.01 20.73 6.96" />
+              <line x1="12" y1="22.08" x2="12" y2="12" />
+            </svg>
+          </div>
+          <div class="project-meta">
+            <span class="tag">G-code</span>
+            <span class="tag">STL</span>
+            <span class="tag">3D Printing</span>
+          </div>
+          <h3 class="project-title">CAD-Works</h3>
+          <p class="project-desc">
+            3D printing and CAD modeling projects for Ender 3 Pro. Custom keycaps (including a
+            Shenron artisan keycap), button holders, printer upgrades, and temperature test towers.
+            Files in G-code, STL, 3MF, and IGES formats.
+          </p>
+          <a
+            href="https://github.com/speed785/CAD-Works"
+            target="_blank"
+            rel="noopener"
+            class="project-link"
+            >View on GitHub</a
+          >
+        </article>
+
+        <!-- Project 5: OSINT -->
+        <article class="project project-card reveal" data-accent="sky">
+          <div class="project-card-icon">
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <circle cx="11" cy="11" r="8" />
+              <line x1="21" y1="21" x2="16.65" y2="16.65" />
+              <line x1="11" y1="8" x2="11" y2="14" />
+              <line x1="8" y1="11" x2="14" y2="11" />
+            </svg>
+          </div>
+          <div class="project-meta">
+            <span class="tag">Python</span>
+            <span class="tag">Scrapy</span>
+            <span class="tag">Security</span>
+          </div>
+          <h3 class="project-title">OSINT Tools</h3>
+          <p class="project-desc">
+            Open-source intelligence toolkit. Includes a Twitter hashtag crawler, Alibaba product
+            scraper built with Scrapy, and a data analysis dashboard. Built for a network security
+            course with real-world data collection workflows.
+          </p>
+          <a
+            href="https://github.com/speed785/OSINT"
+            target="_blank"
+            rel="noopener"
+            class="project-link"
+            >View on GitHub</a
+          >
+        </article>
+
+        <!-- Project 6: AI Agents Starter Kit -->
+        <article class="project project-card reveal" data-accent="teal">
+          <div class="project-card-icon">
+            <svg
+              width="40"
+              height="40"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+              <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+            </svg>
+          </div>
+          <div class="project-meta">
+            <span class="tag">Shell</span>
+            <span class="tag">Markdown</span>
+            <span class="tag">Education</span>
+          </div>
+          <h3 class="project-title">AI Agents Starter Kit</h3>
+          <p class="project-desc">
+            Beginner-friendly template for building AI-assisted projects. Structured learning paths
+            (backend-first, frontend-first, full-stack), agent guidance docs, reusable AGENTS.md and
+            SKILLS.md templates, and AI kickoff prompts.
+          </p>
+          <a
+            href="https://github.com/speed785/ai-agents-starter-kit"
+            target="_blank"
+            rel="noopener"
+            class="project-link"
+            >View on GitHub</a
+          >
+        </article>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="about-inner">
+        <div class="about-left reveal">
+          <div class="section-label">About</div>
+          <h2 class="about-title">Full-stack across the whole stack.</h2>
+          <p class="about-text">
+            I work across layers that most developers never touch in the same career — from
+            kernel-level C drivers and embedded Lua game engines to Python AI pipelines and
+            TypeScript web applications. I also design and 3D-print physical objects.
+          </p>
+          <p class="about-text">
+            My AI Agent DevTools suite is five production-ready libraries with dual-language SDKs,
+            full CI/CD, and documentation sites. My Playdate game uses a physical crank as a drift
+            controller. My Linux driver patches an upstream API that broke for an entire generation
+            of ThinkPad fingerprint sensors.
+          </p>
+          <p class="about-text">
+            I care about code that ships, works, and is documented well enough that someone else can
+            pick it up.
+          </p>
+        </div>
+        <div class="about-right reveal">
+          <div class="stats-grid">
+            <div class="stat-block">
+              <span class="stat-number">5</span>
+              <span class="stat-desc">AI agent libraries</span>
+            </div>
+            <div class="stat-block">
+              <span class="stat-number">8+</span>
+              <span class="stat-desc">Languages used</span>
+            </div>
+            <div class="stat-block">
+              <span class="stat-number">40+</span>
+              <span class="stat-desc">Public repos</span>
+            </div>
+            <div class="stat-block">
+              <span class="stat-number">100%</span>
+              <span class="stat-desc">Test coverage (AI suite)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-inner">
+        <span class="footer-name">James Dumitru</span>
+        <div class="footer-links">
+          <a href="https://github.com/speed785" target="_blank" rel="noopener">GitHub</a>
+        </div>
+        <span class="footer-copy">2026</span>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
 </html>
