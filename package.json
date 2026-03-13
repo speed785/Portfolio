@@ -7,7 +7,6 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "deploy": "npm run build && gh-pages -d dist",
     "lint": "eslint src/ && stylelint 'src/**/*.scss'",
     "lint:fix": "eslint src/ --fix && stylelint 'src/**/*.scss' --fix",
     "format": "prettier --write 'src/**/*.{ts,scss}' '*.{json,html,md}'",
@@ -17,7 +16,6 @@
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "eslint": "^10.0.3",
-    "gh-pages": "^6.3.0",
     "prettier": "^3.8.1",
     "sass": "^1.83.0",
     "stylelint": "^17.4.0",
